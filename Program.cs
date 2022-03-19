@@ -17,33 +17,195 @@ namespace TextCode
         [STAThread]
         static void Main(string[] args)
         {
-            //   Process pr = new Process();
-            // pr.StartInfo.FileName = "cmd.exe";
-            //  pr.StartInfo.Arguments = "/K C:\\Users\\USER\\source\\repos\\TextCode\\bin\\Debug\\TextCode.exe>C:\\files.txt";
-            //  pr.Start();
-            string name = "index";
+            //Specify the Path to the File Location you are about to create;
+            string fileLocation = @"C:\Users\USER\Documents\ARS\";
+            //specify the name of file and extention you are about to create or edit
+            string nameOfFile = "index.html";
+            //creating a path for the ARSharp.NET Framework
+            string path = $"{fileLocation}{nameOfFile}";
+            Console.Write("");
+            Console.Write("");
+            Console.Write("");
 
-            DivTag p1 = new DivTag();
-            
-            p1.classes = "my man is cool oo";
-            p1.title = "halsalinman";
-            p1.Open();
+            /* All ARSharp.Net Framework Code Begins from Here */
 
-            p1.Close();
-            // System.Diagnostics.Process process = new System.Diagnostics.Process();
-            // System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
-            //   startInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
-            //  startInfo.FileName = "cmd.exe";
-            //  startInfo.Arguments = "/K C:\\Users\\USER\\source\\repos\\TextCode\\bin\\Debug\\TextCode.exe > C:\\file.txt";
-            //  process.StartInfo = startInfo;
-            //  process.Start();
-            //  process.WaitForExit();
+
+
+            //calling the Div Framework Tag
+            DivTag div = new DivTag();
+            //calling the Paragraph Framework Tag
+            ParagraphTag p = new ParagraphTag();
+            //calling the Paragraph Framework Tag
+            BodyTag body = new BodyTag();
+            HeadTag head = new HeadTag();
+            HtmlTag html = new HtmlTag();
+
+            //Main Code Starts here
+            html.Open();
+                head.Open();
+                head.Close();
+                body.Open();
+                    div.classes = "my man is cool oo";
+                    div.title = "halsalinman";
+                    div.Open();
+                    div.classes = "";
+                        div.Open();
+                        div.Close();
+                    div.Close();
+                body.Close();
+            html.Close();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            /* All ARSharp.Net Framework Ends Here
+             *Do not Edit Beyound this line :) 
+             Thank you.
+            Don't even think about it!!! 
+            High level warning
+             */
 
             System.Diagnostics.Process process = new System.Diagnostics.Process();
             System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
             startInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
             startInfo.FileName = "cmd.exe";
-            startInfo.Arguments = "/c TextCode.exe" + "> index.txt";
+            startInfo.Arguments = "/c TextCode.exe" + $"> {path}";
             process.StartInfo = startInfo;
             process.Start();
             process.WaitForExit();
