@@ -23,12 +23,22 @@ namespace TextCode
             string nameOfFile = "index.html";
             //creating a path for the ARSharp.NET Framework
             string path = $"{fileLocation}{nameOfFile}";
-            Console.Write("");
-            Console.Write("");
-            Console.Write("");
-
+      
+            Console.WriteLine("<!DOCTYPE html>");
             /* All ARSharp.Net Framework Code Begins from Here */
-
+            string style = "<style>" +
+                "body {" +
+                "font - family: Arial;" +
+                "margin: 0;" +
+                "}" +
+                ".header {padding: 60px;" +
+                "text - align: center;" +
+                "background: #1abc9c;" +
+                "color: white;" +
+                "font - size: 30px;" +
+                "}" +
+                ".content { padding: 20px; }" +
+                "</style> ";
 
 
             //calling the Div Framework Tag
@@ -36,22 +46,52 @@ namespace TextCode
             //calling the Paragraph Framework Tag
             ParagraphTag p = new ParagraphTag();
             //calling the Paragraph Framework Tag
+            TitleTag title = new TitleTag();
             BodyTag body = new BodyTag();
             HeadTag head = new HeadTag();
             HtmlTag html = new HtmlTag();
+            Header1Tag h1 = new Header1Tag();
 
             //Main Code Starts here
+            html.lang = "en";
             html.Open();
                 head.Open();
+                    title.Open();
+                        p.P("ARSharp.NET Frame Work Page");
+                    title.Close();
+                    //Frame work template has not been implemeted for any Console.WriteLines
+                    Console.WriteLine("<meta charset = \"UTF - 8\">");
+                    Console.WriteLine("<meta name=\"viewport\" content=\"width = device - width, initial - scale = 1\">");
+            // Console.WriteLine("<link rel=\"stylesheet\" type=\"text/css\" href=\"index.css\" media=\"screen\"/>");
+            Console.WriteLine(style);
                 head.Close();
                 body.Open();
-                    div.classes = "my man is cool oo";
-                    div.title = "halsalinman";
+                    div.classes = "header";
                     div.Open();
-                    div.classes = "";
-                        div.Open();
-                        div.Close();
+                        h1.H1("This is a Simple ARSharp Framework Page");
+                        p.P("Built from Scratch using C#, Cool Init?");
                     div.Close();
+                    div.classes = "content";
+                    div.Open();
+                        h1.H1("This is a Simple ARSharp Framework Page");
+                        p.P("Built from Scratch using C#, Cool Init?");
+                        h1.H1("You're welcome to the First ARSharp Frame Work Template");
+                        p.P("I know you might be confused on what ASRSharp Means");
+                        h1.H1("About ARSharp!");
+                        p.P("ARShpart means Abandy Roosevelt Sharp for Web, inspired from the Microsoft C# and ASP.NET");
+                        h1.H1("What does ARSharp Do?");
+                        p.P("ARSharp is a framework for removing the abtraction of OOP and Clases directly from you face.");
+                        p.P("One key thing of a programming language is ABSTRACTION, imagine calling a Paragraph Tag with just \"p.P()\", Cool!! I Know right?");
+                        h1.H1("Future of ARSharp");
+                        p.P("This project intends to build a fullstack webpage using the ARSharp framework, currently the local Command Prompt handles the Compiling;" +
+                            " The Compiler?Translator is currently worked on, please do feel to contact me if you would like to contribute."
+                            + " The project intends to competite with .NET for Web and Jade or Pub (A JavaScript template engine)");
+                        h1.H1("Contact");
+                        p.P("Phone Number: +2348168187776");
+                        p.P("Twitter: @dev_roosevelt");
+                        p.P("LinkedIn: /rooseveltabandy");
+                        p.P("Cheers!!! :)");
+                        div.Close();
                 body.Close();
             html.Close();
 
