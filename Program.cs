@@ -74,7 +74,7 @@ namespace TextCode
                     div.classes = "content";
                     div.Open();
                         h1.H1("This is a Simple ARSharp Framework Page");
-                        p.P("Built from Scratch using C#, Cool Init?");
+                        p.P("What i Know about evolving!");
                         h1.H1("You're welcome to the First ARSharp Frame Work Template");
                         p.P("I know you might be confused on what ASRSharp Means");
                         h1.H1("About ARSharp!");
