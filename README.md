@@ -19,4 +19,4 @@
 ##### The Compiler or Translator is currently worked on, please do feel to contact me if you would like to contribute.
 ##### The project intends to compete with .NET for Web and Jade or Pub (A JavaScript template engine
 
-#### :)
+#### Cheers :)
