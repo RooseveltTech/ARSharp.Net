@@ -21,7 +21,7 @@
 
 # How to use ARSharp.NET
 ##### 1. Clone or Download this github repository
-#####   a. If it was cloned, clone to your desired folder
+#####   a. If the project was cloned, specify to your desired folder
 #####   b. If it was downloaded, extract the zip file to your desired folder
 ##### 2. Go the the cloned or extracted Folder and Open the Project with your IDE but Visual Studio is preferred or Open the File and Click on TextCode.sln which opens the project
 ![textcode1](https://user-images.githubusercontent.com/58699961/159150452-ec20fe6c-81da-4224-a72a-deb5c71fc1f6.PNG)
