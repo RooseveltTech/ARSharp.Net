@@ -17,7 +17,7 @@
 ## Future of ARSharp 
 ##### This project intends to build a fullstack webpage using the ARSharp framework, currently the local Command Prompt handles the Compiling;
 ##### The Compiler or Translator is currently worked on, please do feel to contact me if you would like to contribute.
-##### The project intends to compete with .NET for Web and Jade or Pub (A JavaScript template engine
+##### The project intends to compete with .NET for Web and Jade or Pub (A JavaScript template engine)
 
 # How to use ARSharp.NET
 ##### 1. Clone or Download this github repository
