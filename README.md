@@ -67,4 +67,5 @@
 #### html.Close(); //Close a html tag
 #### h1.H1("This is a Big Header"); //Prints an h1 This is a Big header
 
+#### Be creative!!!
 #### Cheers :)
