@@ -7,8 +7,8 @@
 
 ## Frame work Template Engine to Convert C# to HTML Page
 ##### This is a Simple ARSharp Framework 
-##### Built from Scratch using C#, Cool 
-##### This is a Simple ARSharp Framework 
+##### Built from Scratch using C#
+ 
 ##### I know you might be confused on what ASRSharp Means
 ## About ARSharp!
 ##### ARSharp means Abandy Roosevelt Sharp for Web, inspired from the Microsoft C#, ASP.NET and Jade(pub) for NodeJS
