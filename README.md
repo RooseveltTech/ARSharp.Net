@@ -41,8 +41,30 @@
 ##### 9. The resulting Page bulit with ARSharp framework is shown below
 ![textcode6](https://user-images.githubusercontent.com/58699961/159150550-529b4ccd-dba1-4f15-8908-f86c2d5a80cd.PNG)
 
+## Documentation on how to use Tags
+### Defining the tag
+#### DivTag div = new DivTag();     
+#### ParagraphTag p = new ParagraphTag();   
+#### TitleTag title = new TitleTag();
+#### BodyTag body = new BodyTag();  
+#### HeadTag head = new HeadTag();
+#### HtmlTag html = new HtmlTag();
+#### Header1Tag h1 = new Header1Tag();
+#### Header2Tag h2 = new Header2Tag();
 
-
-
+## Usage of Tags
+#### p.classes = "bootstrap"; //sets a paragraph class to bootstrap 
+#### p.P("Hello"); //print a paragraph hello     
+#### div.Open(); //Opens a Div tag 
+#### div.Close(); //Close a Div tag 
+#### title.Open(); //Opens a title tag
+#### title.Close(); //Close a title tag
+#### body.Open(); //Opens a body tag  
+#### body.Close(); //Cloose a body tag 
+#### head.Open(); //Opens a Head tag
+#### head.Close(); //Close a Head tag
+#### html.Open(); //Opens a html tag
+#### html.Close(); //Close a html tag
+#### h1.H1("This is a Big Header"); //Prints an h1 This is a Big header
 
 #### Cheers :)
