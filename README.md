@@ -11,7 +11,7 @@
 ##### This is a Simple ARSharp Framework 
 ##### I know you might be confused on what ASRSharp Means
 ## About ARSharp!
-##### ARSharp means Abandy Roosevelt Sharp for Web, inspired from the Microsoft C# and ASP.NET
+##### ARSharp means Abandy Roosevelt Sharp for Web, inspired from the Microsoft C#, ASP.NET and Jade(pub) for NodeJS
 ## What does ARSharp Do?
 ##### One key thing of a programming language is ABSTRACTION, imagine calling a Paragraph Tag with just p.P("This is a paragraph tag"), Cool!! I Know right?
 ## Future of ARSharp 
