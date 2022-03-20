@@ -2,8 +2,8 @@
 
 #### Contact:
 ##### Phone Number: +2348168187776
-##### Twitter: @dev_roosevelt
-##### LinkedIn: /rooseveltabandy
+##### Twitter: https://www.twitter.com/dev_roosevelt
+##### LinkedIn: https://www.linkedin/in/rooseveltabandy
 
 ## Frame work Template Engine to Convert C# to HTML Page
 ##### This is a Simple ARSharp Framework 
