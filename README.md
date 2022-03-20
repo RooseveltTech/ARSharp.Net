@@ -35,7 +35,7 @@
 ##### 6. Create your page
 ![textcode4](https://user-images.githubusercontent.com/58699961/159150455-ffa99621-60e9-4afc-880d-2bccf5cc47f2.PNG)
 ##### 7. If your using an external CSS file specify the location as shown below which is highly RECOMMENDED
-
+![textcode7](https://user-images.githubusercontent.com/58699961/159150924-d76e813b-6abe-4be0-8cbd-24f9d77dcd32.PNG)
 ##### 8. When you are done with building your web project, Click run or start to compile your Web Page
 ![textcode5](https://user-images.githubusercontent.com/58699961/159150450-f273e1d6-dac3-4190-a5d1-acb49a6b8a33.PNG)
 ##### 9. The resulting Page bulit with ARSharp framework is shown below
