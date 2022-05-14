@@ -9,7 +9,7 @@
 ##### This is a Simple ARSharp Framework 
 ##### Built from Scratch using C#
  
-##### I know you might be confused on what ASRSharp Means
+##### I know you might be confused on what ARSharp Means
 ## About ARSharp!
 ##### ARSharp means Abandy Roosevelt Sharp for Web, inspired from the Microsoft C#, ASP.NET and Jade(pub) for NodeJS
 ## What does ARSharp Do?
